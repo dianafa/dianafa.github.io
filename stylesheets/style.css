@@ -1,0 +1,21 @@
+body {
+	background-color: pink;
+	text-align: center;
+}
+
+.networks a {
+	color: #FFC0CB;
+	text-decoration: none;
+	font-size: xx-large;
+}
+
+.networks a:hover { 
+	color: black;
+	font-size: x-large;
+}
+
+.btn-success {
+	color: #fff;
+	background-color: #FFC0CB;
+	border-color: transparent;
+}

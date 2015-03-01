@@ -1,9 +1,13 @@
 <!DOCTYPE html>
 <html>
-<head>
+<head lang="en">
 	<meta charset="utf-8">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="stylesheets/animate.css">
+	<link rel="stylesheet" type="text/css" href="stylesheets/css/fontello.css">
+	<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+	<title>Diana</title>
+	<meta name="author" content="Diana Falkowska [dianafa.me] © 2015">
 </head>
 <body>
 
@@ -36,18 +40,46 @@
 	</div>
 
 	<div class="container">
-
 		<div class="jumbotron">
-			<h1>Welcome to my world</h1>
-			<h2>Diana Falkowska</h2>
-			<p><a class="btn btn-lg btn-success" ng-href="#/">Cool! <span class="glyphicon glyphicon-ok"></span></a></p>
+			<h1>Welcome</h1>
+			<br>
+			<p>My name is <strong>Diana Falkowska</strong> and I'm passionate about web development. </p>
+			<p>
+				<a class="btn btn-success bounceInDown animated" ng-href="#/">
+					Download CV
+					<span class="glyphicon glyphicon-ok"></span>
+				</a>
+			</p>
+			<br>
+			<br>
+			<br>
+			<p> Follow me </p>
+			<p class="animated fadeInUp networks" id="networks">
+				<a href="mailto:diana.falkowska@gmail.com">
+					 <span class="icon-mail"></span> 
+				</a> 
+				<a href="http://pl.linkedin.com/in/dianafa">
+					 <span class="icon-linkedin-rect"></span> 
+				</a> 
+				<a href="https://www.facebook.com/dianafalkowska">
+					 <span class="icon-facebook"></span> 
+				</a>  
+				<a href="https://github.com/dianafa">
+					 <span class="icon-github"></span> 
+				</a>
+				<a href="live:diana.falkowska">
+					 <span class="icon-skype"></span> 
+				</a>
+				<a href="http://www.meetup.com/members/182537476/">
+					 <span class="icon-meetup"></span> 
+				</a>
+			</p>
 		</div>
-		<div ng-view=""></div>
 	</div>
 
 	<div class="footer">
 		<div class="container">
-			<p><span class="glyphicon glyphicon-heart"></span> from Diana!</p>
+			<p><span class="glyphicon glyphicon-heart"></span> 2015</p>
 		</div>
 	</div>
 
