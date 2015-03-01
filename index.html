@@ -1,1 +1,55 @@
-Hello Diana
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+
+	<div class="header">
+		<div class="navbar navbar-default" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#js-navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+
+					<a class="navbar-brand" href="#/">homepage</a>
+				</div>
+
+				<div class="collapse navbar-collapse" id="js-navbar-collapse">
+
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="#/">Home</a></li>
+						<li><a ng-href="#/about">About</a></li>
+						<li><a ng-href="#/">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+
+		<div class="jumbotron">
+			<h1>Welcome to my world</h1>
+			<h2>Diana Falkowska</h2>
+			<p><a class="btn btn-lg btn-success" ng-href="#/">Cool! <span class="glyphicon glyphicon-ok"></span></a></p>
+		</div>
+		<div ng-view=""></div>
+	</div>
+
+	<div class="footer">
+		<div class="container">
+			<p><span class="glyphicon glyphicon-heart"></span> from Diana!</p>
+		</div>
+	</div>
+
+</body>
+</html>
