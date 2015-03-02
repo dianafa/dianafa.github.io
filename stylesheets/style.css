@@ -1,6 +1,7 @@
 body {
 	background-color: pink;
 	text-align: center;
+	font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
 }
 
 .networks a {
@@ -15,7 +16,7 @@ body {
 	font-size: x-large;
 }
 
-.btn-success {
+.btn-default {
 	color: #fff;
 	background-color: #FFC0CB;
 	border-color: transparent;
