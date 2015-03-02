@@ -7,6 +7,7 @@ body {
 	color: #FFC0CB;
 	text-decoration: none;
 	font-size: xx-large;
+	transition: font-size 1s;
 }
 
 .networks a:hover { 
@@ -18,4 +19,8 @@ body {
 	color: #fff;
 	background-color: #FFC0CB;
 	border-color: transparent;
+}
+
+#follow-me, #welcome {
+	padding-top: 100px;
 }
