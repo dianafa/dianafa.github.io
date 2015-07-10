@@ -1,0 +1,13 @@
+# Site settings
+title: I learn and I share it!
+email: dianafa@o2.pl
+description: > # this means to ignore newlines until "baseurl:"
+  My name is Diana Falkowska. This blog is about various things
+  from the IT area which in my opinion are interesting and worth sharing.
+baseurl: "/blog" # the subpath of your site, e.g. /blog/
+url: "http://dianafa.me" # the base hostname & protocol for your site
+twitter_username: diana_falkowska
+github_username:  dianafa
+
+# Build settings
+markdown: kramdown
