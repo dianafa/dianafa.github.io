@@ -250,3 +250,19 @@
     }
 }
 
+.post-image {
+    height: 100px;
+    width: 100%;
+    transition:height 0.3s;
+    -webkit-filter: blur(3px);
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    transition: all 0.3s;
+
+    &:hover {
+        height: 200px;
+        -webkit-filter: none;
+    }
+}
