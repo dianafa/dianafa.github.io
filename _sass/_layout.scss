@@ -234,3 +234,19 @@
         }
     }
 }
+
+/**
+ * Blog homepage
+ */
+.post-image-link {
+    position: relative;
+
+    .post-link {
+        color: $background-color;
+        font-size: 26px;
+        left: 10px;
+        position: absolute;
+        top: 10px;
+    }
+}
+
