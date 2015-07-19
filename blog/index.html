@@ -3,19 +3,15 @@ layout: default
 ---
 
 <div class="home">
-  <ul class="post-list">
     {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
         <div class="post-image-link">
-          <a  href="{{ post.url | prepend: site.baseurl }}">
+          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+          <a href="{{ post.url | prepend: site.baseurl }}">
             <img class="post-image" src="../images/galaxy.jpg"/>
             <h2 class="post-link">
              {{ post.title }}
             </h2>
           </a>
         </div>
-      </li>
     {% endfor %}
-  </ul>
 </div>
