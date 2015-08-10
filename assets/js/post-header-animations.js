@@ -72,7 +72,7 @@
             isRevealed, 
             noscroll,
             isAnimating,
-            container = document.getElementById( 'notepad-post-container' ) || document,
+            container = document.getElementById( 'diana-post-container' ) || document,
             trigger = container.querySelector( 'button.trigger' );
 
         function scrollY() {
