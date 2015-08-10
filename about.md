@@ -3,7 +3,6 @@ layout: page
 title: About
 permalink: /about/
 ---
-
 My name is Diana Falkowska and I’m a 22 years old cheerful girl from central Poland.
 
 I speak Polish, English and Italian, but we can have a small chit-chat in French and Swedish as well. (Spanish and German in progress :).

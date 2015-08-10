@@ -1,0 +1,27 @@
+---
+layout: default
+---
+<div class="home-template" itemscope itemtype="http://schema.org/WebPage">
+<header class="diana-site-head">
+    <div class="diana-site-head-menu">
+        <div class="diana-blog-menu">      
+    <div class="diana-mobile-menu show-for-small">
+        <a href="#"><i class="fa fa-bars"></i></a>
+    </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="diana-site-head-content">
+        <div class="diana-site-head-bg"></div>
+        <h1 class="diana-blog-title">
+            <span class="diana-site-head-title-bg">
+                {{ site.title }}
+            </span>
+        </h1>
+        <h2 class="diana-blog-description">{{ site.description }}</h2>
+    </div>
+</header>
+
+<main class="diana-content wrapper" role="main">
+{{ content }}
+</main>
+</div>
