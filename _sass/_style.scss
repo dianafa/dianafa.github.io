@@ -1,193 +1,242 @@
 $home-cover-color: black;
 
-/* tools */
-.cf:before,
-.cf:after {
-  content: " ";
-  display: table; }
+.diana-site-head {
 
-.cf:after {
-  clear: both; }
+	.diana-site-head-menu {
+		background: white;
+	}
 
-.diana-parallax-background {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 0;
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-position: 50% 50%;
-  background-repeat: no-repeat; }
+	.diana-site-head-content {
+		width: 100%;
+		text-align: center;
+		background-color: $home-cover-color;
+		background-size: cover;
 
-.animated-post {
-  background: transparent; }
+		.with-bg-cover {
+			background-color: rgba(0, 0, 0, 0.7);
+		}
 
-.diana-site-head .diana-site-head-menu {
-  background: white; }
+		.diana-site-head-title-bg {
+			display: inline-block;
+			padding: 0.625rem;
+			background: $secondary-color;
+			line-height: 1.1;
+		}
 
-.diana-site-head .diana-site-head-content {
-  width: 100%;
-  text-align: center;
-  background-color: $home-cover-color;
-  background-size: cover;
+		h1, h2 {
+			margin: 0;
+			padding: 0;
+			color: white;
+			text-transform: uppercase;
+		}
+
+		h1 {
+			padding-top: 4.375rem;
+			font-size: 0.875rem;
+			margin-bottom: 0.9375rem;
+		}
+
+		h2 {
+			font-size: 2.5rem;
+			padding-bottom: 5rem;
+			font-weight: 700;
+			line-height: 1.3;
+		}
+
+		@media only screen and (min-width: 40.063em) {
+			h1 {
+				padding-top: 7.5rem;
+				font-size: 1rem;
+			}
+			h2 {
+				font-size: 3.75rem;
+				padding-bottom: 7.5rem;
+				font-weight: 700;
+			}
+		}
+		@media only screen and (min-width: 70em) {
+			h1 {
+				padding-top: 9.375rem;
+				font-size: 1rem;
+			}
+
+			h2 {
+				font-size: 4.375rem;
+				padding-bottom: 9.375rem;
+				font-weight: 700;
+			}
+		}
+
+		@media only screen and (min-width: 90em) {
+			h1 {
+				padding-top: 10.3125rem;
+			}
+
+			h2 {
+				font-size: 5rem;
+				padding-bottom: 10.3125rem;
+			}
+		}
+
+		@media only screen and (min-width: 100em) {
+			h1 {
+				padding-top: 12.5rem;
+			}
+			h2 {
+				font-size: 6.25rem;
+				padding-bottom: 12.5rem;
+			}
+		}
+	}
 }
-  .diana-site-head .diana-site-head-content.with-bg-cover {
-    background-color: rgba(0, 0, 0, 0.7); }
-  .diana-site-head .diana-site-head-content .diana-site-head-title-bg {
-    display: inline-block;
-    padding: 0.625rem;
-    background: $secondary-color;
-    line-height: 1.1; }
-  .diana-site-head .diana-site-head-content h1, .diana-site-head .diana-site-head-content h2 {
-    margin: 0;
-    padding: 0;
-    color: white;
-    text-transform: uppercase; }
-  .diana-site-head .diana-site-head-content h1 {
-    padding-top: 4.375rem;
-    font-size: 0.875rem;
-    margin-bottom: 0.9375rem; }
-  .diana-site-head .diana-site-head-content h2 {
-    font-size: 2.5rem;
-    padding-bottom: 5rem;
-    font-weight: 700;
-    line-height: 1.3; }
-  @media only screen and (min-width: 40.063em) {
-    .diana-site-head .diana-site-head-content h1 {
-      padding-top: 7.5rem;
-      font-size: 1rem; }
-    .diana-site-head .diana-site-head-content h2 {
-      font-size: 3.75rem;
-      padding-bottom: 7.5rem;
-      font-weight: 700; } }
-  @media only screen and (min-width: 70em) {
-    .diana-site-head .diana-site-head-content h1 {
-      padding-top: 9.375rem;
-      font-size: 1rem; }
-    .diana-site-head .diana-site-head-content h2 {
-      font-size: 4.375rem;
-      padding-bottom: 9.375rem;
-      font-weight: 700; } }
-  @media only screen and (min-width: 90em) {
-    .diana-site-head .diana-site-head-content h1 {
-      padding-top: 10.3125rem; }
-    .diana-site-head .diana-site-head-content h2 {
-      font-size: 5rem;
-      padding-bottom: 10.3125rem; } }
-  @media only screen and (min-width: 100em) {
-    .diana-site-head .diana-site-head-content h1 {
-      padding-top: 12.5rem; }
-    .diana-site-head .diana-site-head-content h2 {
-      font-size: 6.25rem;
-      padding-bottom: 12.5rem; } }
 
 .diana-content .diana-index-post {
-  visibility: hidden;
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
-  border-bottom: 0.0625rem solid #d9d9d9; }
-  .diana-content .diana-index-post:first-of-type {
-    padding-top: 5rem; }
-  .diana-content .diana-index-post .datetime {
-    margin-bottom: 2.5rem; }
-  @media only screen and (min-width: 40.063em) {
-    .diana-content .diana-index-post {
-      padding-top: 4.375rem;
-      padding-bottom: 4.375rem; }
-      .diana-content .diana-index-post:first-of-type {
-        padding-top: 7.5rem; }
-      .diana-content .diana-index-post .datetime {
-        margin-bottom: 0; } }
-  .diana-content .diana-index-post .diana-post-meta {
-    display: block;
-    text-align: center; }
-    .diana-content .diana-index-post .diana-post-meta .day {
-      display: block;
-      font-size: 1rem;
-      font-weight: 800;
-      color: $secondary-color;
-    }
-    .diana-content .diana-index-post .diana-post-meta .month-year {
-      display: block;
-      color: black;
-      text-transform: uppercase; }
-  .diana-content .diana-index-post .diana-post-header .diana-post-title {
-    color: black;
-    font-weight: 700;
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 1.625rem;
-    margin: 0;
-    padding: 0;
-    line-height: 1.1; }
-    .diana-content .diana-index-post .diana-post-header .diana-post-title a {
-      color: black; }
-  @media only screen and (min-width: 40.063em) {
-    .diana-content .diana-index-post .diana-post-header .diana-post-title {
-      text-align: left;
-      font-size: 2.125rem;
-      margin-bottom: 0.9375rem; } }
-  .diana-content .diana-index-post .diana-post-excerpt {
-    color: black;
-    font-size: 1.25rem;
-    margin-top: 0.625rem;
-    text-align: center; }
-    .diana-content .diana-index-post .diana-post-excerpt p {
-      margin: 0;
-      font-size: 1.25rem; }
-  @media only screen and (min-width: 40.063em) {
-    .diana-content .diana-index-post .diana-post-excerpt {
-      text-align: left; } }
-  .diana-content .diana-index-post .diana-index-post-tags {
-    font-size: 0.8125rem;
-    float: none;
-    color: black;
-    text-align: center;
-    padding-top: 1.25rem;
-    padding-bottom: 0.625rem; }
-    .diana-content .diana-index-post .diana-index-post-tags a {
-      display: inline-block;
-      padding: 0.3125rem 0.9375rem;
-      margin-right: 0.1875rem;
-      color: black;
-      border: 0.0625rem solid black;
-      border-radius: 0.125rem;
-      margin-bottom: 0.3125rem; }
-      .diana-content .diana-index-post .diana-index-post-tags a:hover {
-        color: $secondary-color;
-        border: 0.0625rem solid $secondary-color; }
-  @media only screen and (min-width: 40.063em) {
-    .diana-content .diana-index-post .diana-index-post-tags {
-      padding-top: 0.3125rem;
-      padding-bottom: 0.3125rem;
-      text-align: left;
-      float: left; } }
-  .diana-content .diana-index-post .diana-post-read-more {
-    display: block;
-    text-align: center;
-    float: none;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 1.5625rem;
-    font-size: 0.8125rem;
-    color: white;
-    background-color: black;
-    font-weight: 600;
-    padding: 0.625rem 2.5rem;
-    text-transform: uppercase;
-    -webkit-transition: background-color .3s;
-    transition: background-color .3s;
-    width: 60%;
-    border-radius: 0.125rem; }
-    .diana-content .diana-index-post .diana-post-read-more:hover {
-      background-color: $secondary-color; }
-  @media only screen and (min-width: 40.063em) {
-    .diana-content .diana-index-post .diana-post-read-more {
-      width: auto;
-      float: left;
-      margin-left: 0;
-      margin-right: 0.3125rem; } }
+	visibility: hidden;
+	padding-top: 2.5rem;
+	padding-bottom: 2.5rem;
+	border-bottom: 0.0625rem solid #d9d9d9;
+
+	&:first-of-type {
+		padding-top: 5rem;
+	}
+
+	.datetime {
+		margin-bottom: 2.5rem;
+	}
+
+	@media only screen and (min-width: 40.063em) {
+		padding-top: 4.375rem;
+		padding-bottom: 4.375rem;
+
+		&:first-of-type {
+			padding-top: 7.5rem;
+		}
+		
+		.datetime {
+			margin-bottom: 0;
+		}
+	}
+
+	.diana-post-meta {
+		display: block;
+		text-align: center;
+
+		.day {
+			display: block;
+			font-size: 1rem;
+			font-weight: 800;
+			color: $secondary-color;
+		}
+
+		.month-year {
+			display: block;
+			color: black;
+			text-transform: uppercase;
+		}
+	}
+
+	.diana-post-header .diana-post-title {
+		color: black;
+		font-weight: 700;
+		text-transform: uppercase;
+		text-align: center;
+		font-size: 1.625rem;
+		margin: 0;
+		padding: 0;
+		line-height: 1.1;
+
+		a {
+			color: black;
+		}
+
+		@media only screen and (min-width: 40.063em) {
+			text-align: left;
+			font-size: 2.125rem;
+			margin-bottom: 0.9375rem;
+		}
+	}
+
+	.diana-post-excerpt {
+		color: black;
+		font-size: 1.25rem;
+		margin-top: 0.625rem;
+		text-align: center;
+
+		p {
+			margin: 0;
+			font-size: 1.25rem;
+		}
+
+		@media only screen and (min-width: 40.063em) {
+			text-align: left;
+		}
+	}
+
+	.diana-index-post-tags {
+		font-size: 0.8125rem;
+		float: none;
+		color: black;
+		text-align: center;
+		padding-top: 1.25rem;
+		padding-bottom: 0.625rem;
+
+		a {
+			display: inline-block;
+			padding: 0.3125rem 0.9375rem;
+			margin-right: 0.1875rem;
+			color: black;
+			border: 0.0625rem solid black;
+			border-radius: 0.125rem;
+			margin-bottom: 0.3125rem;
+
+			&:hover {
+				color: $secondary-color;
+				border: 0.0625rem solid $secondary-color;
+			}
+		}
+
+		@media only screen and (min-width: 40.063em) {
+			padding-top: 0.3125rem;
+			padding-bottom: 0.3125rem;
+			text-align: left;
+			float: left;
+		}
+	}
+
+	.diana-post-read-more {
+		display: block;
+		text-align: center;
+		float: none;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 1.5625rem;
+		font-size: 0.8125rem;
+		color: white;
+		background-color: black;
+		font-weight: 600;
+		padding: 0.625rem 2.5rem;
+		text-transform: uppercase;
+		-webkit-transition: background-color .3s;
+		transition: background-color .3s;
+		width: 60%;
+		border-radius: 0.125rem;
+
+		&:hover {
+			background-color: $secondary-color;
+		}
+
+		@media only screen and (min-width: 40.063em) {
+			width: auto;
+			float: left;
+			margin-left: 0;
+			margin-right: 0.3125rem;
+		}
+	}
+}
+
+.animated-post {
+	background: transparent;
+}
 
 nav.pagination {
   padding-top: 5.625rem;
@@ -253,6 +302,29 @@ nav.pagination {
     .diana-site-footer .social-icons {
       text-align: right;
       float: right; } }
+
+.diana-parallax-background {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 0;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+
+/* tools */
+.cf:before,
+.cf:after {
+	content: " ";
+	display: table;
+}
+
+.cf:after {
+	clear: both;
+}
 
 .fadeInDown {
   -webkit-animation-duration: 1s;
