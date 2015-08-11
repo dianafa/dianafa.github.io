@@ -301,6 +301,7 @@ nav.pagination {
 		a {
 			color: white;
 		}
+	}
 
 	.social-icons {
 		text-align: center;
@@ -370,10 +371,10 @@ nav.pagination {
 			transform: translateY(-20px);
 		}
 
-	100% {
-		opacity: 1;
-		-webkit-transform: translateY(0);
-		transform: translateY(0);
+		100% {
+			opacity: 1;
+			-webkit-transform: translateY(0);
+			transform: translateY(0);
 		}
 	}
 
@@ -399,9 +400,7 @@ nav.pagination {
 	padding-top: 3.125rem;
 
 	@media only screen and (min-width: 40.063em) {
-		.tag-template .diana-index-post:first-of-type {
-			padding-top: 4.6875rem;
-		}
+		padding-top: 4.6875rem;
 	}
 }
 
@@ -435,13 +434,13 @@ figure {
 	margin: 0;
 	*zoom: 1;
 	
-	:before, :after {
+	&:before, &:after {
 		display: table;
 		line-height: 0;
 		content: "";
 	}
 
-	:after {
+	&:after {
 		clear: both;
 	}
 
