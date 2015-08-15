@@ -1,16 +1,13 @@
 ---
 layout: default
 ---
-<div class="post wrapper post-template">
+<div class="post post-template">
 {% if page.imagefeature %}
         <main id="diana-post-container" class="diana-post-container intro-effect-sliced" role="main">
             <header class="diana-post-header">
-                <div class="bg-img"></div>
-                <div class="diana-post-menu-header">
 {% else %}
         <main id="diana-post-container-simple" class="diana-post-container-simple" role="main">
             <header class="diana-post-header-simple">
-                <div class="diana-post-menu-header-simple">
 {% endif %}
 	{% if page.imagefeature %}
 		<div class="diana-post-title bg-check">
@@ -25,7 +22,6 @@ layout: default
 				Reading time: <strong>10mins</strong>
 			</div>
 		</div>
-		<div class="bg-img"></div>
 		</header>
 		<button class="trigger bg-check" data-info="Read more"><span>Trigger</span></button>
 		<img src="{{ site.baseurl }}/images/{{ page.imagefeature }}" />
@@ -57,5 +53,4 @@ layout: default
 	</div>
 		</article>
 	<div class="cf"></div>
-
 </div>
