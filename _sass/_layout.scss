@@ -161,10 +161,6 @@
 /**
  * Page content
  */
-.page-content {
-    padding: $spacing-unit 0;
-}
-
 .page-heading {
     font-size: 20px;
 }
@@ -274,23 +270,4 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-}
-
-.site-sidebar {
-    background-color: pink;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    position: fixed;
-    overflow: hidden;
-    z-index: 2;
-    width: 25%;
-    font-size: 14px;
-    padding: 45px 40px;
-    color: #fff;
-    text-align: left;
-}
-
-.viewport {
-    /*display: inline-block;*/
 }

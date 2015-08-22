@@ -1,56 +1,27 @@
 ---
 layout: default
 ---
-<div class="post post-template">
-{% if page.imagefeature %}
-        <main id="diana-post-container" class="diana-post-container intro-effect-sliced" role="main">
-            <header class="diana-post-header">
-{% else %}
-        <main id="diana-post-container-simple" class="diana-post-container-simple" role="main">
-            <header class="diana-post-header-simple">
-{% endif %}
-	{% if page.imagefeature %}
-		<div class="diana-post-title bg-check">
-			<h1>{{ page.title }}</h1>
-			<p>by <strong>{{ site.owner.name }}</strong> &#8212; {% assign tagsize = page.tags.size %}{% if tagsize != 0 %}on {% for tag in page.tags %}
-			<a href="{{ site.baseurl }}/tags/index.html#{{ tag | cgi_encode }}" data-toggle="tooltip" title="Posts tagged with {{ tag }}" rel="tag">
-				{{ tag }}
-			</a>
-			{% unless forloop.last %}&comma;{% endunless %}{% endfor %}{% endif %}
-			<div class="published">
-				Published: <strong><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d %b %Y" }}</time></strong></p>
-				Reading time: <strong>10mins</strong>
+<section class="parallax">
+	<h1>{{ page.title }}</h1>
+</section>
+<div class="post post-template wrapper">
+	<main class="diana-post-container" role="main">
+	<header class="diana-post-header">
+		<div class="diana-post-title">
+			<div class="diana-post-meta">
+				<h2>{{page.title}}</h2>
+				<p>by <strong>{{ site.owner.name }}</strong> &#8212; 
+				<strong><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d %b %Y" }}</time></strong></p>
+				<p>Estimated reading time: <strong>20min</strong></p>
+				{% assign tagsize = page.tags.size %}{% if tagsize != 0 %}on {% for tag in page.tags %}
+				<a href="{{ site.baseurl }}/tags/index.html#{{ tag | cgi_encode }}" data-toggle="tooltip" title="Posts tagged with {{ tag }}" rel="tag">
+				[{{tag}}]
+				</a>{% endfor %}{% endif %}
 			</div>
 		</div>
-		</header>
-		<button class="trigger bg-check" data-info="Read more"><span>Trigger</span></button>
-		<img src="{{ site.baseurl }}/images/{{ page.imagefeature }}" />
-	{% else %}
-		<div class="diana-post-title-simple row">
-			<div class="small-12 columns">
-				<div class="diana-post-meta-simple">
-					<h1>{{ page.title }}</h1>
-					<p>by <strong>{{ site.owner.name }}</strong> &#8212; {% assign tagsize = page.tags.size %}{% if tagsize != 0 %}on {% for tag in page.tags %}
-					<a href="{{ site.baseurl }}/tags/index.html#{{ tag | cgi_encode }}" data-toggle="tooltip" title="Posts tagged with {{ tag }}" rel="tag">
-					{{ tag }}
-					</a>
-					{% unless forloop.last %}&nbsp;&comma;&nbsp;{% endunless %}{% endfor %}{% endif %}
-					<strong><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d %b %Y" }}</time></strong></p>
-				</div>
-			</div>
-		</div>
-		</header>
-	{% endif %}
-
-	{% if page.imagefeature %}
-		<article class="diana-post-content post">
-	{% else %}
-		<article class="diana-post-content post tag-simple">
-	{% endif %}
-	
-	<div>
+	</header>
+	<article>
 		{{ content }}
-	</div>
-		</article>
+	</article>
 	<div class="cf"></div>
 </div>
