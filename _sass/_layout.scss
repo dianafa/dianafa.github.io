@@ -92,11 +92,13 @@
  * Site footer
  */
 .site-footer {
+    background-color: black;
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
 }
 
 .footer-heading {
+    color: $grey-color;
     font-size: 18px;
     margin-bottom: $spacing-unit / 2;
 }
