@@ -2,7 +2,6 @@
   <div class="wrapper">
     <h2 class="footer-heading">Contact me</h2>
     <div class="footer-col-wrapper">
-
       <div class="footer-col footer-col-3">
         <ul class="social-media-list">
           {% if site.owner.github %}
@@ -31,24 +30,20 @@
             </a>
           </li>
           {% endif %}
+
+          {% if site.owner.email %}
+          <li>
+            <a href="mailto:{{ site.owner.email }}">
+              <span class="icon icon-mail"></span>
+              <span class="username">{{ site.owner.email }}</span>
+            </a>
+          </li>
+          {% endif %}
         </ul>
       </div>
-
-
-      <div class="footer-col footer-col-1">
-      {% if site.email %}
-        <a href="mailto:{{ site.email }}">
-          <span class="icon icon-mail"></span>
-          <span class="username">{{ site.email }}</span>
-        </a>
-      {% endif %}
-      </div>
-
       <div class="footer-col footer-col-3">
         <p class="text">{{ site.description }}</p>
       </div>
     </div>
-
   </div>
-
 </footer>
