@@ -13,10 +13,6 @@ layout: default
 				<p>by <strong>{{ site.owner.name }}</strong> &#8212; 
 				<strong><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d %b %Y" }}</time></strong></p>
 				<p>Estimated reading time: <strong>20min</strong></p>
-				{% assign tagsize = page.tags.size %}{% if tagsize != 0 %}on {% for tag in page.tags %}
-				<a href="{{ site.baseurl }}/tags/index.html#{{ tag | cgi_encode }}" data-toggle="tooltip" title="Posts tagged with {{ tag }}" rel="tag">
-				[{{tag}}]
-				</a>{% endfor %}{% endif %}
 			</div>
 		</div>
 	</header>
