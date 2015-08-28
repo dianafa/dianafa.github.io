@@ -98,9 +98,10 @@
 }
 
 .footer-heading {
-    color: $grey-color;
-    font-size: 18px;
     margin-bottom: $spacing-unit / 2;
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
 }
 
 .contact-list,
@@ -199,6 +200,7 @@
     font-size: 42px;
     letter-spacing: -1px;
     line-height: 1;
+    margin-top: 20px;
 
     @include media-query($on-laptop) {
         font-size: 36px;

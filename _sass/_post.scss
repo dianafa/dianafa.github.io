@@ -50,7 +50,7 @@ html, body, .diana-post-container, .diana-post-header {
 	.diana-post-header {
 		position: relative;
 		margin: 0 auto;
-		min-height: 35rem;
+		min-height: 300px;
 		width: 100%;
 	
 		.diana-post-menu-header {
@@ -123,75 +123,6 @@ html, body, .diana-post-container, .diana-post-header {
 		}
 	}
 }
-
-.diana-post-share {
-  font-size: 1.875rem;
-  padding: 0;
-  padding-top: 3.75rem;
-  padding-bottom: 3.75rem;
-  border-top: 0.0625rem solid #f2f2f2;
-  color: $secondary-color; }
-  .diana-post-share a {
-    display: inline-block;
-    margin: 0 0.9375rem;
-    color: $secondary-color; }
-  @media only screen and (min-width: 40.063em) {
-    .diana-post-share {
-      padding-top: 5rem;
-      padding-bottom: 5rem; } }
-
-.diana-author-info {
-  padding: 0;
-  padding-top: 3.75rem;
-  padding-bottom: 3.75rem;
-  background: #f2f2f2; }
-  @media only screen and (min-width: 40.063em) {
-    .diana-author-info {
-      padding-top: 5rem;
-      padding-bottom: 5rem; } }
-  @media only screen and (min-width: 70em) {
-    .diana-author-info {
-      padding-top: 6.875rem;
-      padding-bottom: 6.875rem; } }
-  @media only screen and (min-width: 90em) {
-    .diana-author-info {
-      padding-top: 7.5rem;
-      padding-bottom: 7.5rem; } }
-  .diana-author-info .diana-post-author {
-    padding-left: 1.875rem;
-    padding-right: 1.875rem;
-    text-align: center; }
-    .diana-author-info .diana-post-author .author-label {
-      display: block;
-      font-size: 1rem;
-      color: gray;
-      font-style: italic; }
-    .diana-author-info .diana-post-author .author-website {
-      font-size: 1rem; }
-    .diana-author-info .diana-post-author h1 {
-      margin: 0;
-      padding: 0;
-      font-weight: 700;
-      text-transform: uppercase; }
-    .diana-author-info .diana-post-author > p {
-      font-size: 1.125rem; }
-      .diana-author-info .diana-post-author > p a {
-        color: $secondary-color; }
-    .diana-author-info .diana-post-author .diana-post-author-avatar {
-      width: 12.5rem;
-      height: 12.5rem;
-      border-radius: 50%;
-      float: none;
-      margin-right: 0;
-      margin-bottom: 1.25rem; }
-      @media only screen and (min-width: 40.063em) {
-        .diana-author-info .diana-post-author .diana-post-author-avatar {
-          margin-right: 3.125rem;
-          margin-bottom: 0;
-          float: left; } }
-    @media only screen and (min-width: 40.063em) {
-      .diana-author-info .diana-post-author {
-        text-align: left; } }
 
 .diana-post-menu-header-simple {
   width: 100%;
