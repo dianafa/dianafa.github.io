@@ -139,7 +139,7 @@ $home-cover-color: black;
 		color: black;
 		font-weight: 700;
 		text-transform: uppercase;
-		text-align: center;
+		text-align: left;
 		font-size: 1.625rem;
 		margin: 0;
 		padding: 0;
@@ -278,20 +278,7 @@ nav.pagination {
 .diana-site-footer {
 	background: black;
 
-	.social-icons {
-		width: 100%;
-		padding: 0;
-		text-align: center;
-		float: none;
-		padding-bottom: 3.75rem;
-	
-		a {
-			color: black;
-		}
-	}
-
 	@media only screen and (min-width: 70em) {
-		.social-icons,
 		.copyright {
 			width: 49%;
 			padding: 5rem;
@@ -300,11 +287,6 @@ nav.pagination {
 		.copyright {
 			text-align: left;
 			float: left;
-		}
-
-		.social-icons {
-			text-align: right;
-			float: right;
 		}
 	}
 }

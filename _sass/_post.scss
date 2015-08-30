@@ -1,31 +1,9 @@
-/* tools */
-.cf:before,
-.cf:after {
-  content: " ";
-  display: table; }
-
-.cf:after {
-  clear: both; }
-
-html, body, .diana-post-container, .diana-post-header {
-  height: 100%; }
-
-.diana-post-header-title {
-  display: inline-block;
-  padding: 0;
-  padding-left: 1.25rem;
-  height: 5rem;
-  line-height: 5rem;
-  vertical-align: middle;
-  font-size: 1.625rem;
-  font-weight: 700;
-  color: white;
-  text-transform: uppercase;
-  letter-spacing: -0.0625rem; }
-  .diana-post-header-title a {
-    color: white; }
-    .diana-post-header-title a:hover {
-      color: white; }
+html,
+body,
+.diana-post-container,
+.diana-post-header {
+  height: 100%;
+}
 
 .post-template {
 
@@ -52,17 +30,6 @@ html, body, .diana-post-container, .diana-post-header {
 		margin: 0 auto;
 		min-height: 300px;
 		width: 100%;
-	
-		.diana-post-menu-header {
-			width: 100%;
-			height: 5rem;
-			background-color: black;
-			color: white;
-			position: absolute;
-			top: 0;
-			left: 0;
-			z-index: 9999;
-		}
 	}
 
 	.bg-img {
@@ -124,24 +91,15 @@ html, body, .diana-post-container, .diana-post-header {
 	}
 }
 
-.diana-post-menu-header-simple {
-  width: 100%;
-  height: 5rem;
-  background-color: black;
-  color: white;
-  position: relative;
-  z-index: 9999; }
-
 .diana-page-title {
-  margin: 0 auto;
-  width: 100%; }
+    margin: 0 auto;
+    width: 100%;
+}
   .diana-page-title a {
     color: black; }
-    .diana-page-title a:hover,
-    .diana-post-title-simple a:hover {
+    .diana-page-title a:hover {
       color: $secondary-color; }
-  .diana-page-title h1,
-  .diana-post-title-simple h1 {
+  .diana-page-title h1 {
     color: black;
     font-weight: 800;
     font-size: 3.125rem;
@@ -153,14 +111,12 @@ html, body, .diana-post-container, .diana-post-header {
     text-align: center;
     text-transform: uppercase; }
     @media only screen and (min-width: 40.063em) {
-      .diana-page-title h1,
-      .diana-post-title-simple h1 {
+      .diana-page-title h1 {
         font-size: 4.375rem;
         padding-top: 5.625rem;
         padding-bottom: 5.625rem; } }
     @media only screen and (min-width: 70em) {
-      .diana-page-title h1,
-      .diana-post-title-simple h1 {
+      .diana-page-title h1 {
         padding-top: 6.875rem;
         padding-bottom: 6.875rem; } }
 
@@ -170,18 +126,6 @@ html, body, .diana-post-container, .diana-post-header {
 @media screen and (max-width: 27em) {
   .diana-page-title {
     font-size: 50%; } }
-.post-template .diana-post-title-simple.row,
-.post-template .diana-disqus.row,
-.post-template .social-icons.row,
-.page-template .diana-post-title-simple.row,
-.page-template .diana-disqus.row,
-.page-template .social-icons.row {
-  margin-left: auto;
-  margin-right: auto; }
-.post-template .diana-author-info .row,
-.page-template .diana-author-info .row {
-  margin-left: auto;
-  margin-right: auto; }
 .post-template .row,
 .page-template .row {
   max-width: 58.125rem;
@@ -222,19 +166,6 @@ iframe {
   margin-right: auto;
   max-width: 75rem; }
 
-.diana-disqus {
-  padding: 0;
-  padding-top: 3.75rem;
-  padding-bottom: 5.625rem;
-  padding-left: 1.875rem;
-  padding-right: 1.875rem; }
-  .diana-disqus .diana-comments-header {
-    font-weight: 700;
-    text-transform: uppercase; }
-  @media only screen and (min-width: 40.063em) {
-    .diana-disqus {
-      padding-top: 5.3125rem;
-      padding-bottom: 9.375rem; } }
 .post-list {
     padding: 0;
     margin: 0;
@@ -248,7 +179,8 @@ iframe {
     *zoom: 1;
 }
 
-.post-list li:after,.post-list li:before {
+.post-list li:after,
+.post-list li:before {
     display: table;
     line-height: 0;
     content: "";
