@@ -5,9 +5,9 @@ var cowLoader = new Four.OBJMeshLoader({ path: '/man.obj' });
 
 function main()
 {
-    var view = new Four.Framebuffer();
     var program = new Four.Program({ selector: '.diana-shader-class' });
-
+    
+    var view = new Four.Framebuffer();
     var camera = new Four.PerspectiveCamera({
         program: program, location: [50, 50, 50]
     });
@@ -31,13 +31,10 @@ function main()
         })
     });
 
-    program.bind();
-
-    spotLight.bind();
-
     scene = new Four.Scene();
 
     scene.put(mesh);
+
     scene.render(view, camera, function() {
         program.bind();
         light.bind();
