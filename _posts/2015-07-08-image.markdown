@@ -3,7 +3,7 @@ layout: post
 title:  "Image"
 date:   2015-07-04 21:04:12
 categories: blog update
-imagefeature: galaxy.jpg
+image: galaxy.jpg
 category: testing
 ---
 Mlkshk squid selfies, brunch pug skateboard art party Tumblr try-hard Thundercats pickled biodiesel meditation Helvetica cold-pressed. Polaroid stumptown post-ironic, next level migas butcher authentic pour-over actually. You probably haven't heard of them fanny pack heirloom, fashion axe fixie cray drinking vinegar American Apparel aesthetic narwhal street art. Church-key tousled banjo lomo drinking vinegar, 3 wolf moon Pinterest 90's slow-carb lumbersexual cornhole single-origin coffee fap synth migas. Austin banjo gluten-free disrupt kale chips. Next level occupy aesthetic ugh chia. Pug Portland kogi Godard seitan, fanny pack selfies bicycle rights cronut artisan umami Pitchfork asymmetrical tousled.

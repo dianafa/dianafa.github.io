@@ -119,11 +119,11 @@ prose:
             - name: "Web-Development"
               value: webdevelopment
           alterable: true
-      - name: "imagefeature"
+      - name: "image"
         field:
           element: "text"
           label: "Featured Image"
-          placeholder: "somefile.jpg"
+          placeholder: "galaxy.jpg"
       - name: "featured"
         field:
           element: "checkbox"
