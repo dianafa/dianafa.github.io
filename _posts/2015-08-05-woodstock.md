@@ -4,6 +4,7 @@ title:  "Woodstock - co zabrać?"
 date:   2015-08-05 21:04:12
 categories: woodstock lifestyle polish po_polsku tips
 image: woodstock.jpg
+estimated_reading_time: 15
 ---
 Dziś wróciłam z Przystanku Woodstock 2015 :) Jeszcze pełna wrażeń, rozpakowując torbę moją uwagę przykuło ile niepotrzebnych rzeczy tak naprawdę ze sobą wzięłam! Około ⅓ rzeczy w mojej torbie okazała się zupełnie nieprzydatna i nawet na chwilę jej nie opuściła. Smutne. I nie chciałabym, żeby spotkało to także Was ;) Zrobiłam zestawienie moich faworytów, które na pewno pomoże mi w wyjazdach na kolejne festiwale i biwaki. 
 

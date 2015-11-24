@@ -12,7 +12,7 @@ layout: default
 				<h2>{{page.title}}</h2>
 				<p>by <strong>{{ site.owner.name }}</strong> &#8212; 
 				<strong><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d %b %Y" }}</time></strong></p>
-				<p>Estimated reading time: <strong>20min</strong></p>
+				<p>Estimated reading time: <strong>{{ page.estimated_reading_time }}min</strong></p>
 			</div>
 		</div>
 	</header>
