@@ -4,7 +4,7 @@ title:  "Image format comparison"
 date:   2015-11-26 21:04:12
 categories: image format jpeg bpg webp png gif comparison
 image: jpeg_bpg.jpg
-estimated_reading_time: 20
+estimated_reading_time: 15
 ---
 I’m a student. When on one of the classes everyone was asked to invent and make some measurements of anything we want and then to prepare a short essay about it’s results, I was thinking about something what really interests me, not the standard “Sort algorithms comparison” or “Page load time”. Booring.
 
@@ -88,8 +88,8 @@ _Main image: JPEG image on the left, BPG image on the right. Source: <http://www
 [complex1]: /images/image-formats/complex1.jpg "Complex image"
 [complex2]: /images/image-formats/complex2.jpg "Complex image"
 [complex3]: /images/image-formats/complex3.jpg "Complex image"
-[chart_all]: /images/image-formats/chart_all.webp "Overall results"
-[chart_average]: /images/image-formats/chart_average.webp "Average image size"
+[chart_all]: /images/image-formats/chart_all.png "Overall results"
+[chart_average]: /images/image-formats/chart_average.png "Average image size"
 [chart_JPEG]: /images/image-formats/chart_JPEG.png "Average image size in comparison to JPEG"
 [chart_small_big]: /images/image-formats/chart_small_big.png "Big and small images"
 [chart_complexity]: /images/image-formats/chart_complexity.png "Simple and complex images"

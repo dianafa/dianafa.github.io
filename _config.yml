@@ -48,7 +48,7 @@ paginate:    5
 paginate_path: "blog/page:num"
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title
+permalink:   /blog/:title
 
 kramdown:
   auto_ids: true
