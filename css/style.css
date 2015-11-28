@@ -1,5 +1,6 @@
 body {
 	background-color: pink;
+	font-size: 21px;
 	text-align: center;
 	font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
 }
@@ -16,12 +17,40 @@ body {
 	font-size: x-large;
 }
 
-.btn-default {
+.welcome {
+	font-size: 60px;
+	font-weight: 500;
+}
+
+.cv-button {
 	color: #fff;
 	background-color: #FFC0CB;
-	border-color: transparent;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 16px;
+	height: 34px;
+	padding: 6px 12px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.cv-button:hover {
+	color: black;
+	background-color: #eee;
+	border-color: #ccc;
 }
 
 #follow-me, #welcome {
 	padding-top: 100px;
+}
+
+.light-frame {
+	background-color: rgb(238, 238, 238);
+	border-radius: 6px;
+	box-sizing: border-box;
+	margin: auto;
+	padding-bottom: 48px;
+	padding-top: 48px;
+	width: 1140px;
 }
