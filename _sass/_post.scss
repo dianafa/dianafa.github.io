@@ -2,7 +2,7 @@ html,
 body,
 .diana-post-container,
 .diana-post-header {
-  height: 100%;
+	height: 100%;
 }
 
 .post-template {
@@ -150,22 +150,6 @@ body,
   background: $secondary-color;
   color: #fff; }
 
-pre {
-  word-wrap: break-word;
-  margin-bottom: 1.5625rem; }
-
-code {
-  font-size: 0.9375rem;
-  line-height: 1.2; }
-
-iframe {
-  border: 0; }
-
-.flex-video {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 75rem; }
-
 .post-list {
     padding: 0;
     margin: 0;
@@ -248,6 +232,14 @@ iframe {
 			vertical-align: super;
 			color: black;
 		}
+	}
+}
+
+.with-image {
+	text-align: center;
+
+	img {
+		margin: 5px;
 	}
 }
 
