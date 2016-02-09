@@ -22,7 +22,7 @@ Rzeczy podzieliłam na trzy grupy:
  * __mity__- rzeczy, których posiadanie jest według mnie przereklamowane. Mogą umilić pobyt, ale zajmują więcej miejsca w torbie niż to warte. Oczywiście wszystko zależy od osoby, ale przedstawiam tu moją opinię ;)
 
 
-##Must have##
+## Must have
 
 1. pilnik do paznokci- naprawdę potrafi uratować dzień, jeśli zahaczycie o coś paznokciem...
 1. chusteczki nawilżone- przydają się w dosłownie KAŻDYCH okolicznościach.
@@ -45,7 +45,7 @@ Rzeczy podzieliłam na trzy grupy:
   * opaska uciskowa (oby nie)
 
 
-##Nice to have##
+## Nice to have
 1. latarka czołówka - latarka tylko że lepsza :)) Niezastąpiona np. przy rozkładaniu namiotu lub wizycie w toi toiu ;)
 1. koc termiczny - żadna noc w namiocie lub imprezowanie do nocy nie było mi straszne.
 1. plastry & środek odkażający. Co do tego drugiego to wódka może załatwić sprawę. Plastry jednak ratują życie, zwłaszcza że rany nie za bardzo lubią jeśli przez 3 dni dostaje się do nich wszechobecny kurz i bród.
@@ -56,7 +56,7 @@ Rzeczy podzieliłam na trzy grupy:
 
 
 
-##Mity##
+## Mity
 1. stary telefon - jeśli masz małą torebkę lub kieszeń w której i tak trzymasz dokumenty nie widzę problemu żeby włożyć do niej też telefon. Telefon z Internetem przydaje się chociażby do kupna biletów PKP na powrót lub instalacji aplikacji woodstockowej. Ponadto, dla wszystkich posiadaczy telefonów w sieci Play, internet był darmowy na cały czas trwania festiwalu.
 1. walizka na kółkach - fajna jeśli chodzi o podróż w cywilizowanym terenie. Na Woodstocku jednak przeważa piasek, więc plecak w tym wypadku sprawdza się idealnie.
 1. suche zupki chińskie - wzięłam ze sobą 2 i tyle samo przywiozłam spowrotem. W przypadku zupki chińskiej musisz mieć wrzątek, po który trzeba zwykle wybrać się w to samo miejsce co po jedzenie. Jeśli już tam jesteś, to polecam zjeść coś normalnego, a nie zupkę chińską.
