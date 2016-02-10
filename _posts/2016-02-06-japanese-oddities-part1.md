@@ -6,33 +6,33 @@ categories: japan tokyo oddities travel
 image: shibuya.jpg
 estimated_reading_time: 15
 ---
-* Funny narrow cars - I guess they are meant to fit in a small parking slots and narrow streets, and I’m partially right, see: [Kei cars on Wikipedia](https://en.wikipedia.org/wiki/Kei_car)
+* Funny narrow cars - I guess they are meant to fit in small parking slots and narrow streets, and I’m partially right, see: [Kei cars on Wikipedia](https://en.wikipedia.org/wiki/Kei_car)
 
 * Left-side traffic
 
-* [Pedestrian scrambles](https://en.wikipedia.org/wiki/Pedestrian_scramble) - in some crowded places zebra crossings are not only horizontally to the pedestrian area, but they cross each other as well. That means, that once pedestrians see the green light they can cross  an intersection in every direction, including diagonally. At the same time, all vehicular traffic is stopped.
+* [Pedestrian scrambles](https://en.wikipedia.org/wiki/Pedestrian_scramble) - in some crowded places zebra crossings are placed not only horizontally to the pedestrian area, but they cross and overlap each other as well. That means, that once pedestrians see the green light they can cross  an intersection in every direction, including diagonally. At the same time, all vehicular traffic is stopped.
 
 <div style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/tKm-AsSAZ0k" frameborder="0" allowfullscreen></iframe></div>
 
 <br>
 
-* If you are an average-height person, you’ll be probably taller than most of the japanese people. Good news- thanks to this you’ll be able to breath in subway train and find a way in the crowded places. Bad news - some of the subway or JR stations are not prepared for tall people - watch out for low ceilings and small doors.
-I didn't have many photos with me and some Japanese people, but even on this pic the difference can be visible.
+* If you are an average-height person, you’ll be probably taller than most of the Japanese people. Good  - thanks to this you’ll be able to breathe in a subway train and find a way in various crowded places. Bad news - some of the subway or JR stations were not constructed with tall people in mind - watch out for low ceilings and small doors.
+I don't have many photos with me and some Japanese people to illustrate the issue, but even in this pic the difference is visible (see below).
 
 ![small1]
 ![small2]
 
 <br>
 
-* Manga, manga, manga everywhere. One the buildings, streets, billboards. One of the JR trains we ride was pasted all over with huge digimon stickers. That’s actually really cool. It reminds me not to take life too serious. Moreover, it makes japanese streets really colorful and charming.
+* Manga, manga, manga everywhere. On the buildings, streets, billboards. One of the JR trains we rode was pasted all over with huge Digimon stickers. That’s actually really cool. It reminded me not to take life too seriously. Moreover, it makes Japanese streets really colorful and charming.
 
 <div style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/gMtKjTR5WtY" frameborder="0" allowfullscreen></iframe></div>
 
 <br>
 
-* Japanese don’t tend to eat/drink on the go.
+* The Japanese don’t tend to eat/drink on the go.
 
-* Vending machines are on every street, every corner, every free place of space. The most popular ones are this with soft drinks and snacks, but you can find them with hot beverages, hot soups, umbrellas or museum tickets.
+* Vending machines are on every street, every corner, they occupy every free space. The most popular ones are those with soft drinks and snacks, but you can find them supplied with hot beverages, hot soups, umbrellas or museum tickets.
 
 ![machine1]
 ![machine2]
@@ -40,7 +40,7 @@ I didn't have many photos with me and some Japanese people, but even on this pic
 
 <br>
 
-* Taxis (cabs) - all of them look more or less the same. See pic. Taxi drivers wear special suits (kind of uniform) and white gloves and look really elegant. Usually cab has also a self-opening doors, not to bother clients with touching them.
+* Taxis (cabs) - all of them look more or less the same (see pic below). Taxi drivers wear special suits (kind of uniforms) and white gloves and they look really elegant. Usually cabs have also a self-opening doors, not to bother clients with touching them.
 
 ![taxi]
 
