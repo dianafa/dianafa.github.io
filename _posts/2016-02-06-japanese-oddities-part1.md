@@ -46,18 +46,18 @@ I don't have many photos with me and some Japanese people to illustrate the issu
 
 <br>
 
-* Japanese people don’t speak/ speak very little english. Even in such places like bank/currency exchange on the international airport or Starbucks, where most of the foreigners come. There are several reasons for that:
+* Japanese people don’t speak/speak very little English. Even in such places as bank/currency exchange at the international airport or Starbucks, where most of the foreigners come. There are several reasons for that:
 
-    * lessons are conducted in traditional lecture mode - there’s one teacher who speaks and the rest is listening. Do I have to explain why it has no chance to work?
+    * lessons are conducted in traditional lecture mode - there’s one teacher who speaks and the rest is listening. Do I have to explain why it has no chances of working?
 
-    * they usually have only 1h of english lessons per one or even two weeks! They are taught tons of english grammar and words, but program doesn’t (przewiduje) examples of how to actually use them - no dialogs, sample songs, books, movies, cartoons are used. So, they usually know what to say, but are simply not able to do it, because they do not know how.
+    * they usually have only 1h of English lessons per one or even two weeks! They are taught tons of English grammar and words, but the program doesn’t accommodate examples of how to actually use them - no dialogues, sample songs, books, movies, cartoons are used. So, they usually know what to say, but are simply not able to do it, because they do not know how.
 
-    * another reason has cultural background: in Japan in general people are encouraged not to speak. Kids are taught both physical as well as verbal discipline. All improper or redundant actions or words can be heavily punished by teachers or parents.  As a result, for the whole life, any Japanese person wants to do anything considered stupid or crazy, like saying something in foreign language or do it incorrectly.
+    * another reason has cultural background: in Japan in general people are encouraged not to speak. Kids are taught both physical as well as verbal discipline. All improper or redundant actions or words can be heavily punished by teachers or parents.  As a result, no Japanese person wants to do anything considered stupid or crazy. By _stupid or crazy_ they unfortunately often mean saying something in foreign language.
 
-    * last, but not the least of the reasons I’ll describe here (I’m sure there’s more) is that Japanese people doesn’t really care about the english. They REALLY don’t think it’s usefull at all. Japanese society is one of the most linguistically and culturally homogeneous countries on the world, composed of 98.5% ethnic Japanese. On the streets, in shops, public transport on TV - everywhere the Japanese language is spoken. Because of that, they tend to treat learning this language as a some kind of hobby or whim rather than a thing that becomes more and more crucial, especially in the world of internet.
+    * last, but not the least of the reasons I’ll describe here (I’m sure there are more) is that Japanese people don’t really care about the English. They REALLY don’t think it’s usefull at all. Japanese society is one of the most linguistically and culturally homogeneous countries on the world, composed of 98.5% ethnic Japanese. On the streets, in shops, public transport on TV - everywhere the Japanese language is spoken. Because of that, they tend to treat learning this language as a some kind of hobby or whim rather than a thing that becomes more and more crucial, especially in the world of the Internet.
 
 
-* Nobody talks in subway. The only talking people are sometimes foreigners (jap. _gajin_). Every japanese person is or sleeping (70%) or playing with her mobile phone. While watching video, please note how silent is there - only because nobody speaks! (the only speaking person is actually my companion, sorry for that :P).
+* Nobody talks in subway. The only talking people are sometimes foreigners (jap. _gajin_). Every japanese person is either sleeping (70%) or playing with their mobile phone. While watching video, please note how silent is there - only because nobody speaks! (the only speaking person is actually my companion, sorry for that :P).
 
 <div style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/_RvLUiONX4U" frameborder="0" allowfullscreen></iframe></div>
 
