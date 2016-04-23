@@ -1,8 +1,9 @@
 body {
-	background-color: pink;
-	font-size: 21px;
-	text-align: center;
+	background-color: #FFC0CB;
 	font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+	font-size: 21px;
+	margin: 30px;
+	text-align: center;
 }
 
 .networks a {
@@ -50,8 +51,42 @@ body {
 	background-color: rgb(238, 238, 238);
 	border-radius: 6px;
 	box-sizing: border-box;
-	margin: auto;
-	padding-bottom: 48px;
-	padding-top: 48px;
-	width: 1140px;
+	padding: 50px;
+}
+
+/*
+	Animations
+ */
+
+@-webkit-keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+            transform: translate3d(0, 100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+            transform: translate3d(0, 100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+          animation-name: fadeInUp;
 }
